@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles/pages/index/register.css">
+</head>
+
+<body>
+    <div class="head">
+        <h1>三星账户</h1>
+    </div>
+    <div class="main">
+        <div class="reg_content">
+            <div id="verify" class="main_content" style="display: block">
+                <h2>身份证号</h2>
+                <p>为了您正常使用三星会员提供的服务，请输入准确的身份信息</p>
+                <div class="froms">
+                    <label for="fristname" class="fn">姓氏</label>
+                    <input type="text" class="inputs" id="fristname">
+                    <p class="warn">此项不能为空</p>
+                </div>
+                <div class="froms">
+                    <label for="name" class="n">名字</label>
+                    <input type="text" class="inputs" id="name">
+                    <p class="warn">此项不能为空</p>
+                </div>
+                <div class="froms">
+                    <label for="id" class="id">身份证验证</label>
+                    <input type="text" class="inputs" id="id">
+                    <p class="warn">请正确输入18位身份证号</p>
+                </div>
+                <button class="btn1">验证</button>
+                <p class="ex">其他注册方式</p>
+                <p><a href="">军人证/护照验证</a></p>
+            </div>
+            <div id="register" class="main_content" style="display: none">
+                <h2>创建您的三星账户</h2>
+                <p>通过三星帐户来获得盖乐世设备的更多功能。</p>
+                <ul class="tag">
+                    <li id="email" class="chosen">
+                        <span>邮件</span>
+                    </li>
+                    <li id="phonenumber">
+                        <span>手机号码</span>
+
+                    </li>
+                </ul>
+                <div class="froms">
+                    <label for="email" class="em">邮箱</label>
+                    <input type="text" class="inputs" id="emailp">
+                    <input type="text" class="inputs" id="phonenum" style="display: none">
+                    <p class="warn">请正确填写邮箱格式</p>
+                </div>
+                <div class="froms">
+                    <label for="pwd" class="pwd">密码</label>
+                    <input type="password" class="inputs" id="pwd">
+                    <p class="warn">密码格式</p>
+                    <p class="tip">（8位以上，必须包含密码数字）</p>
+                </div>
+                <div class="froms">
+                    <label for="pwdcheck" class="pwdc">确认密码</label>
+                    <input type="password" class="inputs" id="pwdcheck">
+                    <p class="warn">两次密码不一致</p>
+                </div>
+                <div class="froms">
+                    <label for="fristname2" class="fn2">姓氏</label>
+                    <input type="text" class="inputs" id="fristname2">
+                </div>
+                <button class="btn2">确认</button>
+            </div>
+        </div>
+    </div>
+    <div class="foot_inner">
+        <div class="foot_content">
+            <div class="left_foot">
+                <ul>
+                    <li>
+                        条款和条件
+                    </li>
+                    <li>三星隐私权政策</li>
+                    <li>联系我们</li>
+                </ul>
+            </div>
+            <div class="right_foot">
+                <p>© Samsung Electronics Co., Ltd.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../../static/scripts/require.js" data-main="../../scripts/index/register.js" type="text/javascript"
+    charset="utf-8"></script>
+
+</html>

@@ -1,0 +1,420 @@
+@import "../base";
+
+$val : 1470px;
+
+.ad_div{
+    height: 28px;
+    background: rgb(228, 228, 228);
+}
+.ad_div span{
+    float: right;
+    margin-right: 15px;
+    color: rgb(184, 182, 182)
+}
+.nav_div{
+    
+    height: 65px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid rgb(202, 202, 202)
+}
+.nav_div_in{
+    height: 65px;
+    width: 1440px;
+    margin: auto;
+
+}
+.nav_left{
+    float: left;
+    line-height: 60px;
+}
+.nav_left li{
+    float: left;
+    margin:0 11px;
+    font-size: 15px;
+    position: relative;
+    height: 60px;
+}
+.nav_item{
+    margin: auto;
+    width: 0;
+    height: 5px;
+    transition:all 100ms;
+    background: blue;
+}
+.nav_div li:hover .nav_item{
+     width: 100%; 
+}
+
+.nav_middle a{
+    float: left;
+    font-family: SamsungOne, "Fangzheng Lanting", Simsun, 宋体, arial !important;
+    display: block;
+    background: url("../../../imges/icon-samsung.png");
+    width: 122px;
+    height: 20px;
+    margin: 22px 120px;
+}
+.nav_right{
+    float: right;
+    
+    line-height: 60px;
+
+}
+.nav_right li{
+    font-size: 15px;
+    float: left;
+    margin: 0 12px;
+}
+.search{
+    background: url("../../../imges/search.png");
+    height: 21px;
+    width: 23px;
+}
+.search_item{
+    margin-top: 40px;
+}
+.sildeshow{
+	width: 100%;
+	height: 555px;
+	background: white;
+}
+.swiper-container{
+	height: 555px;
+	width: 1440px;
+}
+.banner1{
+	background: url("../../../imges/-A-20190425.jpg");
+}
+.banner2{
+	background: url("../../../imges/1440x555-8k-2.jpg");
+}
+.banner3{
+	background: url("../../../imges/1440x555-ref-20190416-2.jpg");
+}
+.banner4{
+	background: url("../../../imges/home_kv_galaxy_s10_pc_514.jpg");
+}
+.banner5{
+	background: url("../../../imges/locations-pc-555-1.jpg");
+}
+.swiper-pagination-b1{
+    width: 131px;
+    height: 2px;
+    background: rgb(228, 228, 228);
+    float: left;
+    margin-left: 16px;
+}
+.middle{
+    margin: auto;
+}
+.content{
+    height: 383px;
+    width: 100%;
+}
+.content h2,.word_list{
+    width: 1440px;
+    height: 52px;
+    text-align: center;
+    padding-top: 72px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.content>div{
+    width: 1440px;
+    height: 258px;
+    margin: 0 auto;
+}
+.content>div div{
+    height: 258px;
+    width: 464px;
+    float: left;
+    margin: 0 8px;
+    position: relative;
+    overflow: hidden;
+}
+.content>div .img1{
+    transition: all 1s;
+    background-position-x: center;
+    background-position-y: center;
+    background: url("../../../imges/3_column_KV_A_Galaxy_Event_PC.jpg");
+}
+.content>div .img2{
+    transition: all 1s;
+    background: url("../../../imges/iot-20190430.jpg");
+}
+.content>div .img3{
+    transition: all 1s;
+    background: url("../../../imges/464x261-A70-1.jpg");
+}
+.btn_play{
+    border: 0;
+    width: 123px;
+    height: 123px;
+    position: absolute;
+    top: 65.5px;
+    left: 170px;
+    background: url("../../../imges/btn-play-video-white.png");
+    transition: all 1s;
+    z-index: 10;
+}
+.content>div div:hover .img1{
+    transform: scale(1.1);
+}
+.content>div div:hover .btn_play{
+    background: url("../../../imges/btn-play-video-white-hover.png");
+}
+.main{
+    width: 100%;
+    height: 949px;
+
+}
+.word_list ul {
+    width: 458px;
+    margin: auto;
+}
+.word_list li{
+    padding:0 23px;
+    float: left;
+    position: relative;
+}
+.label{
+    width: 0;
+    height: 4px;
+    background: black;
+    margin:auto;
+}
+.word_list_color{
+    color:rgb(206,206,206);
+}
+.sliderconstainer{
+    width: $val;
+    height: 833px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    
+}
+.slidershow2{
+    width: $val*3;
+    height: 833px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.slidershow2>div{
+    width: $val;
+    height: 833px;
+    float: left;
+}
+.slidershow2>div>div{
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    
+    
+    
+}
+.slidershow2>div>div:hover a{
+    box-shadow: 2px 2px 2px 2px #ececec;
+}
+.slidershow2>div>div:hover .changecolor{
+    background: white;
+}
+.imgB:hover{
+    background-size: 110%;
+}
+
+.slidershow2 a{
+    float: left;
+    display: block;
+    width: 342px;
+    height: 370px;
+    transition: all 500ms;
+    z-index: 1000;
+
+}
+.slidershow2 .big{
+    width: 708px;
+    height: 764px;
+    
+}
+.changecolor{
+    background: #f5f4f4;
+    width: 342px;
+    height: 370px;
+}
+.imgB{
+    background: url("../../../imges/iot-708x764-2-20190430.jpg") no-repeat ;
+    background-position-x: center;
+    background-position-y: center;
+    transition: all 500ms;
+}
+.slidershow2>div div :hover{
+    box-shadow: 5px 5px 5px black;
+}
+.imgS1{
+    background: url("../../../imges/262x188-A-0411-1.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+}
+.imgS1:hover{
+    background: url("../../../imges/262x188-A-0411-2.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+}
+.imgS2{
+    background: url("../../../imges/262x188-Active-1.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+}
+.imgS2:hover{
+    background: url("../../../imges/262x188-Active-2.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+}
+.imgS3{
+    background: url("../../../imges/262x188-buds-20190404-1.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+
+}
+.imgS3:hover{
+    background: url("../../../imges/262x188-buds-20190404-2.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+}
+.imgS4{
+    background: url("../../../imges/262x188-S10-1.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+}
+.imgS4:hover{
+    background: url("../../../imges/262x188-S10-2.png") no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+}
+.bigSreach{
+    width: 100%;
+    height: 184px;
+}
+.bigSreach h2{
+    font-size: 26px;
+    width: 1440px;
+    height: 52px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.inP{
+    width: 850px;
+    height: 44px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+.inP input{
+    padding: 0 0 0 29px;
+    width: 785px;
+    height: 44px;
+    border: none;
+    float: left;
+    
+    
+}
+.search_footer{
+    background: url("../../../imges/search.png");
+    height: 27px;
+    width: 28px;
+    float: left;
+    background-size: 100%;
+}
+.footer-remind{
+    height: 138px;
+    width: 100%;
+    background: rgb(231, 230, 230);
+    border-top: 1px solid rgb(194, 193, 193);
+}
+.con{
+    width: 1440px;
+    margin: 0 auto;
+    padding-left: 21px;
+    padding-top: 25px;
+}
+.con p{
+    font-size: 12px;
+}
+.footer-list{
+    width: 100%;
+    height: 370px;
+    padding-top: 22px;
+    font-size: 12px;
+    background: rgb(231, 230, 230);
+    border-top: 1px solid rgb(194, 193, 193);
+}
+.footer-list-sitemap{
+    width: 1390px;
+    height: 235px;
+    padding-top: 28px;
+    margin: 0 auto;
+}
+.footer-list1{
+    width: 556px;
+    height: 31px;
+    padding: 0 0 13px 0;
+    float: left;
+}
+.footer-list2{
+    width: 278px;
+    height: 31px;
+    padding: 0 0 13px 0;
+    float: left;
+}
+.u1{
+    width: 254px;
+    height: 161px;
+    float: left;
+    padding-right: 24px;
+}
+.u1 li{
+    height: 23px;
+    width: 254px;
+    padding-top: 2px;
+    line-height: 23px;
+    font-size: 12px;
+}
+.info_text{
+    height: 47px;
+    width: 1320;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+.footer_last{
+    width: 100%;
+    height: 60px;
+    background: #525252;
+    font-size: 12px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.footer_last_content{
+    width: 1440px;
+    height: 60px;
+    margin: 0 auto;
+}
+.footer_last_left{
+    float: left;
+
+}
+.footer_last_left ul li{
+    padding: 23px;
+    float: left;
+}
+.footer_last_right{
+    float: right;
+}
+.footer_last_right ul li{
+    padding: 23px;
+    float: left;
+}

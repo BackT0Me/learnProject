@@ -1,0 +1,206 @@
+@import "../base";
+
+
+.ad{
+    width: 100%;
+    height: 30px;
+    background: rgb(230, 230, 230);
+}
+.ad_wapper{
+    width: 1026px;
+    height: 30px;
+    margin: 0 auto;
+}
+.ad_left{
+    float: left;
+    font-size: 15px;
+    line-height: 30px;
+}
+.ad_right{
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    z-index: 100;
+    
+}
+.header_content{
+    width: 1026px;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+}
+.header_content_left{
+    width: 500px;
+    height: 65px;
+    float: left;
+}
+
+.header_content_left>ul>li{
+    float: left;
+    margin: 0 16px;
+    line-height: 65px;
+}
+.header_content_left>ul .first{
+    float: left;
+    margin-right: 16px;
+    margin-left: 0;
+}
+.header_content_left ul li a{
+    font-size: 12px;
+
+}
+
+.header_content_middle{
+    width: 122px;
+    height: 20px;
+    background: url("../../../imges/icon-samsung.png");
+    margin-left: -73px;
+    line-height: 65px;
+    margin-top: 22px;
+    float: left;
+}
+
+.header_content_right{
+    float: right;
+}
+.header_content_right>ul>li{
+    float: left;
+}
+.header_content_right ul li a{
+    font-size: 12px;
+}
+.header_content_right ul li a i{
+    position: relative;
+    top: 4px;
+}
+.servers li {
+    margin: 0 16px;
+    line-height: 65px;
+}
+.telphone{
+    background: url("../../../imges/icon.png");
+    background-position: -20px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.talk{
+    background: url("../../../imges/icon.png");
+    background-position: -46px 0;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.talk:hover{
+    background-position: -46px -26px;
+}
+.user{
+    background: url("../../../imges/icon.png");
+    background-position: -74px 0;
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.user:hover{
+    background-position: -74px -26px;
+}
+.search{
+    background: url("../../../imges/icon.png");
+    background-position: -100px 0;
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.search:hover{
+    background-position: -100px -26px;
+}
+.cart{
+    background: url("../../../imges/icon.png");
+    background-position: -158px 0;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.cart:hover{
+    background-position: -158px -26px;
+}
+.cart span{
+    position: absolute;
+    top: -29px;
+    left: 7px;
+    text-decoration: none;
+}
+.header_content>div>ul>li:hover a{
+    color: rgb(34, 131, 221)
+}
+.item{
+    background: blue;
+    height: 2px;
+    position: relative;
+    top: -3px;
+    display: none;
+}
+// .header_content_left>ul>li:hover .item{
+//     display: block;
+// }
+.smartphone{
+    width: 1059px;
+    background: white;
+    top: 66px;
+    left: -256px;
+    margin: 0 auto;
+    position: absolute;
+    padding: 20px 239px;
+    height: 160px;
+    display: none;
+}
+// .smartphone_content{ 
+//     width: 1026px;
+    
+//     margin: 0 auto;
+    
+// }
+.smartphone_img{
+    float: left;
+}
+.smartphone_img li {
+    padding: 0 23px 0 0;
+    float: left;
+}
+.smartphone_img li img{
+    width: 100px;
+    height: 100px;
+}
+.smartphone_img li p{
+    display: block;
+    height: 30px;
+    width: 100px;
+    font-size: 12px; 
+    line-height: 15px;
+    text-align: center;
+    margin-top: -12px;
+}
+.smartphone_list{
+    float: left;
+    margin-left: 20px;
+    padding-left: 30px;
+    border-left: 1px solid rgb(238, 237, 237);
+
+}
+.smartphone_list li{
+    font-size: 12px;
+    line-height: 30px;
+}

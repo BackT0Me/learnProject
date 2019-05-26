@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles/pages/index/index.css">
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="slidershow">
+        <div class="slidercontent">
+            <ul id="sliderfir" class="sliders">
+                <li>
+                    <img src="../../imges/190507_KV_GalaxyFold_1920_427.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../../imges/190507_KV_SmartHone_1920_427.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../../imges/190509_KV_S10FirstPin_1920_427.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../../imges/190510_KV_GalaxyA60A40_2_1920_427.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../../imges/190516_KV_GalaxyA70_1920_427.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../../imges/190507_KV_GalaxyFold_1920_427.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <ul class="nav_slider">
+            <li class="slider_active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="section_content">
+            <div>
+                <a href="#">
+                    <img src="../../imges/0507-Banner-OldForNewService_389_260.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../../imges/0509-Banner-S9P_389_260.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../../imges/0517-Banner-A8s_389_260.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="goodlist_one">
+        <div class="gl_one_content">
+            <div class="gl_one_header header3">
+                <p>配件</p>
+                <ul>
+                    <li class="active">保护类</li>
+                    <li>耳机/音响</li>
+                    <li>电池/充电器</li>
+                </ul>
+                <a href="#">更多></a>
+            </div>
+            <div class="gl_one_goods col3">
+                <!-- 插入三排数据点 -->
+
+                <div class="btn btn_left">
+                    <a ><</a> 
+                </div> 
+                <div class="btn btn_right">
+                    <a >></a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="activity">
+        <div class="activity_content">
+            <div class="gl_one_header">
+                <p>活动</p>
+
+            </div>
+            <div class="secSlider">
+                <ul id="slidersec" class="sliders">
+                    <li>
+                        <a href="#">
+                            <img src="../../imges/190430_GalaxyBuds_1220_184.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../imges/190506_W2019_1220_184.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../imges/190430_GalaxyBuds_1220_184.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav_slider2">
+                    <li class="slider_active"></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="hot_goods">
+        <div class="hot_goods_content">
+            <div class="gl_one_header">
+                <p>本周热销</p>
+
+            </div>
+            <div class="goods_list_sec">
+                <div class="goods_list_sec_content">
+
+                    <!-- 插入热销商品 -->
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="adver">
+        <div class="adver_content">
+            <img src="../../imges/190404_MKV_GZH_1_1220_184.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="goodlist_one">
+        <div class="gl_one_content">
+            <div class="gl_one_header header4">
+                <p>为你推荐</p>
+                <ul>
+                    <li class="active">智能手机</li>
+                    <li>可穿戴设备</li>
+                    <li>平板电脑</li>
+                    <li>笔记本电脑</li>
+                </ul>
+                <a style="margin-left: 366px;" href="#">更多></a>
+            </div>
+            <div class="gl_one_goods col4">
+                <!-- 插入四排的数据点 -->
+                <div class="btn btn_left">
+                    <a >
+                        <</a> </div> <div class="btn btn_right">
+                            <a >></a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+<script id="col3" type="text/html">
+    <div class="goods_list_one goods_last_one_show">
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[0].imagePath%>" alt="">
+            <h3><%=data[0].enName%></h3>
+            <p>9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[1].imagePath%>" alt="">
+            <h3><%=data[1].enName%></h3>
+            <p>9.99</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[2].imagePath%>" alt="">
+            <h3><%=data[2].enName%></h3>
+            <p>9.9</p>
+        </div>
+        <div class="goods_last">
+            <img src="https://www.sonystyle.com.cn<%=data[3].imagePath%>" alt="">
+            <h3><%=data[3].enName%></h3>
+            <p>9.9</p>
+        </div>
+    </div>
+    <div class="goods_list_one">
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[4].imagePath%>" alt="">
+            <h3><%=data[4].enName%></h3>
+            <p>9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[5].imagePath%>" alt="">
+            <h3><%=data[5].enName%></h3>
+            <p>9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[6].imagePath%>" alt="">
+            <h3><%=data[6].enName%></h3>
+            <p>9.9</p>
+        </div>
+        <div class="goods_last">
+            <img src="https://www.sonystyle.com.cn<%=data[7].imagePath%>" alt="">
+            <h3><%=data[7].enName%></h3>
+            <p>9.9</p>
+        </div>
+    </div>
+    <div class="goods_list_one">
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[8].imagePath%>" alt="">
+            <h3><%=data[8].enName%></h3>
+            <p>￥9.99</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[9].imagePath%>" alt="">
+            <h3><%=data[9].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[10].imagePath%>" alt="">
+            <h3><%=data[10].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div class="goods_last">
+            <img src="https://www.sonystyle.com.cn<%=data[11].imagePath%>" alt="">
+            <h3><%=data[11].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+    </div>
+</script>
+<script id="hot" type="text/html">
+    <%for(let i=0; i<data.length-1; i++){%>
+    <div >
+        <div class="hoticon">
+            <span>新品</span>
+            <i class="hoticon_left"></i>
+            <i class="hoticon_right"></i>
+        </div>
+        <img src="https://www.sonystyle.com.cn<%=data[i].imagePath%>" alt="">
+        <h3><%=data[i].enName%>
+            <p><%=data[i].productModelCnName%></p>
+        </h3>
+
+        <p>￥9.9</p>
+    </div>
+    <%}%>
+    <div class="goods_last">
+            <div class="hoticon">
+                <span>新品</span>
+                <i class="hoticon_left"></i>
+                <i class="hoticon_right"></i>
+            </div>
+            <img src="https://www.sonystyle.com.cn<%=data[3].imagePath%>" alt="">
+    <h3><%=data[3].enName%>
+        <p><%=data[3].productModelCnName%></p>
+    </h3>
+
+    <p>￥9.9</p>
+    </div>
+</script>
+<script id="col4" type="text/html">
+    <div class="goods_list_one goods_last_one_show">
+
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[0].imagePath%>" alt="">
+            <h3><%=data[0].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[1].imagePath%>" alt="">
+            <h3><%=data[1].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[2].imagePath%>" alt="">
+            <h3><%=data[2].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div class="goods_last">
+            <img src="https://www.sonystyle.com.cn<%=data[3].imagePath%>" alt="">
+            <h3><%=data[3].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+    </div>
+
+    <div class="goods_list_one">
+
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[4].imagePath%>" alt="">
+            <h3><%=data[4].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[5].imagePath%>" alt="">
+            <h3><%=data[5].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[6].imagePath%>" alt="">
+            <h3><%=data[6].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div class="goods_last">
+            <img src="https://www.sonystyle.com.cn<%=data[7].imagePath%>" alt="">
+            <h3><%=data[7].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+    </div>
+
+    <div class="goods_list_one">
+
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[8].imagePath%>" alt="">
+            <h3><%=data[8].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[9].imagePath%>" alt="">
+            <h3><%=data[9].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[10].imagePath%>" alt="">
+            <h3><%=data[10].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div class="goods_last">
+            <img src="https://www.sonystyle.com.cn<%=data[11].imagePath%>" alt="">
+            <h3><%=data[11].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+    </div>
+
+    <div class="goods_list_one">
+
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[12].imagePath%>" alt="">
+            <h3><%=data[12].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[13].imagePath%>" alt="">
+            <h3><%=data[13].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div>
+            <img src="https://www.sonystyle.com.cn<%=data[14].imagePath%>" alt="">
+            <h3><%=data[14].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+        <div class="goods_last">
+            <img src="https://www.sonystyle.com.cn<%=data[6].imagePath%>" alt="">
+            <h3><%=data[6].enName%></h3>
+            <p>￥9.9</p>
+        </div>
+    </div>
+</script>
+<script src="../../static/scripts/require.js" data-main="../../scripts/index/index.js" type="text/javascript"
+    charset="utf-8"></script>
+
+</html>
